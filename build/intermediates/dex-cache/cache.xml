@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0bb8cd57d1af8ec3d7e15b5f94bedd362b0927d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4df72579dc75c4f8b842c9252d06d5776510df64">
+        <dex dex="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6fb10919ab76681208e380298ebe6d20ca1161b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/harishananth/Desktop/schoolex-master/app/libs/activation.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/activation_06ca7e90be090661890e193e45458140784e9b2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/harishananth/Desktop/schoolex-master/app/libs/additionnal.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/additionnal_5b25932bf886c2d477acac49cde5a8e07e7a167b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/harishananth/Desktop/schoolex-master/app/libs/mail.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/harishananth/Desktop/schoolex-master/app/build/intermediates/transforms/dex/debug/folders/1000/2/mail_cbfb254b6487402f4d5cfae74c8846717a9a0b74/classes.dex" />
+    </item>
+
+</items>

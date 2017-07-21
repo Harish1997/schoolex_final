@@ -1,0 +1,1412 @@
+<resources>
+    <string name="app_name">"SchooleX "</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1884212251827373</string>
+    <string name="server_client_id">784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello !</string>
+    <string name="slide_1_desc">The easiest way to choose a school in your city!</string>
+
+    <string name="slide_2_title">Pick Category</string>
+    <string name="slide_2_desc">Narrow down schools with ease based on our category search!</string>
+
+    <string name="slide_3_title">24/7 Assistance</string>
+    <string name="slide_3_desc">SchooleX offers free around the clock assistance for our users</string>
+
+    <string name="slide_4_title">Get Notified !</string>
+    <string name="slide_4_desc">Seeking for admissions? We will keep you notified about the admission related details of your interest</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="sendPhoto">Photo Camera</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="select_picture_title">Get Photo From</string>
+    <string name="sendPhotoGallery">Photo Gallery</string>
+    <string name="api_key_google_places">AIzaSyBisbsq9wIW8Q2Isj033c3wXqtTBRyaRBA</string>
+    <string name="sendLocation">Send Location</string>
+    <string name="locationTo">Localização Enviada</string>
+
+    <string-array name="girls_schools">
+        <item>CSI Bain Matriculation Higher Secondary School Kilpauk</item>
+        <item>CSI Ewart Matriculation Higher Secondary School Purasawalkam</item>
+        <item>CSI Jessie Moses Matriculation and Higher Secondary School</item>
+        <item>DAV Girls Senior Secondary School Gopalapuram</item>
+        <item>DAV Girls Senior Secondary School Mogappair</item>
+        <item>Good Shepherd Matriculation Higher Secondary School</item>
+        <item>Sacred Heart Matriculation Higher Secondary School</item>
+        <item>Shri BS Mootha Girls Sr Sec School</item>
+        <item>St Aloysius Anglo Indian Girls Higher Secondary School</item>
+        <item>St Columbans Anglo Indian Higher Secondary School</item>
+        <item>St Dominics Anglo Indian Higher Secondary School</item>
+        <item>St Helens Girls Higher Secondary School</item>
+        <item>St Ursulas Anglo Indian Higher Secondary School</item>
+        <item>Vidyodaya Schools</item>
+    </string-array>
+    
+    <string-array name="boys_schools">
+        <item>DAV Boys Senior Secondary School Gopalapuram</item>
+        <item>DAV Boys Senior Secondary School Mogappair</item>
+        <item>Don Bosco Matriculation Higher Secondary School</item>
+        <item>Loyola Matriculation Higher Secondary School</item>
+        <item>St Bedes Academy</item>
+        <item>St Josephs Anglo Indian Boys Higher Secondary School Vepery</item>
+        <item>St Marys Anglo Indian Higher Secondary School</item>
+        <item>Wesley Higher Secondary School</item>
+    </string-array>
+
+
+    <string-array name="coed_schools">
+        <item>Aachi Global School</item>
+        <item>Aadithiaa Vidyaa Mandir</item>
+        <item>Abacus Montessori School</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Agape KinderGarten School</item>
+        <item>Agarwal Vidyalaya Matriculation Higher Secondary School</item>
+        <item>AGR Global School</item>
+        <item>Agurchand Manmull Jain School</item>
+        <item>Air Force School</item>
+        <item>AKG Public School</item>
+        <item>Akshar Arbol International School</item>
+        <item>Akshayah Matriculation Higher Secondary School</item>
+        <item>Al Fajr International School</item>
+        <item>Alagappa Matriculation School</item>
+        <item>Alpha Matriculation Higher Secondary School Sembakkam</item>
+        <item>Alpha Matriculation Higher Secondary School West CIT Nagar</item>
+        <item>Alpha School CBSE</item>
+        <item>Alwin Memorial Public School</item>
+        <item>American International School</item>
+        <item>AMM Matriculation Hr Sec School</item>
+        <item>Amrita Vidyalayam</item>
+        <item>Anita Methodist School</item>
+        <item>Annai Velankanni Matriculation Higher Secondary School</item>
+        <item>APL Global School</item>
+        <item>Arise n Shine International PreSchool</item>
+        <item>Army Public School Nandambakkam</item>
+        <item>Arsha Vidya Mandir</item>
+        <item>Arulmigu Meenakshi Amman Public School</item>
+        <item>Asan Memorial Senior Secondary School</item>
+        <item>AVM Rajeswari</item>
+        <item>Baalya School</item>
+        <item>Babaji Vidhyashram</item>
+        <item>Bala Vidya Mandir Global</item>
+        <item>Bala Vidya Mandir Global</item>
+        <item>Bala Vidya Mandir</item>
+        <item>Besant Arundale Senior Secondary School</item>
+        <item>Bethel Matriculation Hr Sec School</item>
+        <item>Bhagyam Chelliaha Matriculation School</item>
+        <item>Bhaktavatsalam Vidyashram</item>
+        <item>Bharat Senior Secondary School</item>
+        <item>Bharathi Vidyalaya Senior Secondary School</item>
+        <item>Bharatiya Vidhya Bhavans Rajaji Vidyashram</item>
+        <item>Bhavans rajaji vidyashram</item>
+        <item>Boaz Public School</item>
+        <item>Boston Matriculation Higher Secondary School</item>
+        <item>Brilliant Matriculation Higher Secondary School</item>
+        <item>British School Anna Nagar</item>
+        <item>Budding Minds International School</item>
+        <item>Calibre Academy International School</item>
+        <item>Chennai Public School Anna nagar</item>
+        <item>Chennai Public School Thirumazhisai</item>
+        <item>Chettinad Hari Shree Vidyalayam</item>
+        <item>Chhathrapathy Shivaji DAV Secondary School</item>
+        <item>Chinmaya Vidyalaya Kilpauk</item>
+        <item>chinmaya Vidyalaya kilpauk</item>
+        <item>Chinmaya Vidyalaya Senior Secondary School Anna Nagar</item>
+        <item>Chinmaya Vidyalaya Virugambakkam</item>
+        <item>Christ King Convent and Primary School</item>
+        <item>Christ Matric Higher Secondary School</item>
+        <item>Colours International School</item>
+        <item>CPS Global School Anna Nagar</item>
+        <item>Crescent Matriculation Higher Secondary School for Girls Nungambakkam</item>
+        <item>Crescent School Vandalur</item>
+        <item>CSI Corley Higher Secondary School Tambaram</item>
+        <item>CSI Corley Higher Secondary School Tambaram</item>
+        <item>CSI St Ebbas Matriculation Higher Secondary School</item>
+        <item>DAV Matriculation Higher Secondary School Mogappair East</item>
+        <item>DAV School Adambakkam</item>
+        <item>Dawn School</item>
+        <item>Delhi Public School Nallambakkam</item>
+        <item>Devi Academy Matriculation Higher Secondary School</item>
+        <item>Devi Academy Senior Secondary School</item>
+        <item>Dhanish Matriculation Higher Secondary School Ayanavaram</item>
+        <item>Dhanish Matriculation Higher Secondary School Kolathur</item>
+        <item>Dominic Savio Matriculation School</item>
+        <item>Don Bosco School of Excellence</item>
+        <item>Doveton Oakley Nursery and Primary School</item>
+        <item>Dr CL Metha Sishya School</item>
+        <item>Dr Nalli Kuppuswami Vivekananda Vidyalaya Junior College</item>
+        <item>Dr Nalli Kuppuswamy Vivekananda Vidyalaya</item>
+        <item>Ebenezer Marcus International School and Junior College</item>
+        <item>Everwin Vidyashram</item>
+        <item>Gateway American International School Padur</item>
+        <item>Gateway International School Neelankarai</item>
+        <item>Gateway The Complete School</item>
+        <item>Geekz Micro School</item>
+        <item>German International School Palavakkam</item>
+        <item>GGN International School</item>
+        <item>GK Shetty Hindu Vidyalaya Matric Higher Secondary School</item>
+        <item>GK Shetty Vivekananda Vidyalaya Junior College</item>
+        <item>GKM Vidyashram</item>
+        <item>Godson Public School</item>
+        <item>Good Earth School</item>
+        <item>Grace Matriculation School Perambur</item>
+        <item>GRT Mahalakshmi Vidyalaya Matriculation Higher Secondary School</item>
+        <item>GT Aloha Vidhya Mandir</item>
+        <item>Guru Shree Shantivijai Jain Vidyalaya</item>
+        <item>Guru Shri Shanthivijay Jain Gurukul</item>
+        <item>Hindu Higher Secondary School</item>
+        <item>Hindustan International School</item>
+        <item>Hiranandani Upscale School</item>
+        <item>HLC International School</item>
+        <item>Holy Angels Anglo Indian Higher Secondary School</item>
+        <item>Holy Sai International School</item>
+        <item>Hussain Memorial Matriculation Higher Secondary School</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya JGVV</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya</item>
+        <item>Jain Vidyaashram Puzhal</item>
+        <item>Jawahar Vidyalaya Senior Secondary School</item>
+        <item>Jaya Jaya Sankara International School</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School</item>
+        <item>Kaligi Ranganathan Montford Matriculation higher secondary school</item>
+        <item>Kavi Bharathi Vidyalaya</item>
+        <item>Kendriya Vidyalaya AFS</item>
+        <item>Kendriya Vidyalaya Anna Nagar</item>
+        <item>Kendriya Vidyalaya CLRI</item>
+        <item>Kendriya Vidyalaya HVF</item>
+        <item>Kendriya Vidyalaya IIT</item>
+        <item>Kendriya Vidyalaya Kodambakkam</item>
+        <item>Kendriya Vidyalaya Meenambakkam</item>
+        <item>Kendriya Vidyalaya No 1</item>
+        <item>Kendriya Vidyalaya No 2 Selaiyur</item>
+        <item>Kendriya Vidyalaya OCF</item>
+        <item>Kendriya Vidyalaya Palavanthangal</item>
+        <item>Kendriya Vidyalaya Park Town</item>
+        <item>Kids Central</item>
+        <item>Knowledge Academy School</item>
+        <item>Kola Perumal Chetty Vaishnav Senior Secondary School</item>
+        <item>Kola Saraswathi Vaishnav Senior Secondary School</item>
+        <item>Krishnamurthi Foundation India KFI</item>
+        <item>Krishnamurti Foundation India Adyar</item>
+        <item>KRM Public School</item>
+        <item>Kumaran Asan Memorial Higher Secondary School</item>
+        <item>Kumararani Meena Muthiah Matriculation Higher Secondary School</item>
+        <item>Kumkum Academy</item>
+        <item>La Chatelaine Residential Junior College</item>
+        <item>Lady Andal Venkatasubba Rao Matriculation School Chetpet</item>
+        <item>Lalaji Memorial Omega International School</item>
+        <item>LM DADHA Senior Secondary School</item>
+        <item>Loyola International Residential School</item>
+        <item>Maharishi School of Excellence</item>
+        <item>Maharishi Vidya Mandir Senior Secondary School</item>
+        <item>Maharishi Vidya Mandir</item>
+        <item>Mahaveer Rajasthani International School</item>
+        <item>MAK Matriculation Higher Secondary School</item>
+        <item>Mangadu Public School</item>
+        <item>Manthan Vidyashram</item>
+        <item>MCC Campus Matriculation Higher Secondary School Tambaram</item>
+        <item>MCC Campus Matriculation Higher Secondary School Tambaram</item>
+        <item>MCC Higher Secondary School Chetpet</item>
+        <item>MCTM Chidambaram Chettyar International School</item>
+        <item>MKM Matriculation School Porur</item>
+        <item>Narayana E Techno School Arumbakkam</item>
+        <item>Narayana E Techno School Neelankarai</item>
+        <item>Narayana E Techno School Ramapuram</item>
+        <item>Narayana Olympiad School Gopalapuram</item>
+        <item>Narayana Olympiad School Vepery</item>
+        <item>Narayana School Kolathur</item>
+        <item>National Matriculation Higher Secondary School St Thomas Mount</item>
+        <item>National Public School Gopalapuram</item>
+        <item>Navadisha Montessori School</item>
+        <item>New Prince Matriculation Higher Secondary School</item>
+        <item>NPS International School Perumbakkam</item>
+        <item>NSN Matriculation Higher Secondary School Chitlapakkam</item>
+        <item>NSN Matriculation Higher Secondary School Chrompet</item>
+        <item>NSN Matriculation Higher Secondary School</item>
+        <item>Olive International School</item>
+        <item>Olive Public School</item>
+        <item>Padma Sarangapani School</item>
+        <item>Padma Seshadri Bala Bhavan KK Nagar</item>
+        <item>Padma Seshadri Bala Bhavan Nungambakkam</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School Siruseri</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School T Nagar</item>
+        <item>Padmasarangapani Higher Secondary School</item>
+        <item>Padmashree CBSE School Kolathur</item>
+        <item>Patasala Montessori School</item>
+        <item>Pon Vidyashram Injambakkam</item>
+        <item>Pon Vidyashram Kolapakkam</item>
+        <item>Pon Vidyashram School Valasaravakkam</item>
+        <item>Pon Vidyashram School Velachery</item>
+        <item>Pon Vidyashram Virugambakkam</item>
+        <item>Primrose Schools</item>
+        <item>PS Senior Secondary School</item>
+        <item>Ramakrishna Mission Higher Secondary School T Nagar</item>
+        <item>Ramana Vidyalaya</item>
+        <item>Ravindra Bharathi Global School Keelkattalai</item>
+        <item>Ravindra Bharathi Global School Nandambakkam</item>
+        <item>Ravindra Bharathi School Puzhal</item>
+        <item>Reserve Bank Staff Quarters School</item>
+        <item>RMK Residential School</item>
+        <item>RMK Senior Secondary School</item>
+        <item>Rosary Matriculation Higher Secondary School</item>
+        <item>Round Table 30 Vivekananda Vidyalaya</item>
+        <item>Sai Matriculation Higher Secondary School</item>
+        <item>Sairam Vidyalaya</item>
+        <item>SAN Academy</item>
+        <item>SAN Academy</item>
+        <item>Sana Model school</item>
+        <item>Sangford School</item>
+        <item>Santhome Higher Secondary School</item>
+        <item>Saraswathi Vidyalaya Matriculation Higher Secondary School</item>
+        <item>Saraswathi Vidyalaya Vidapalani</item>
+        <item>Saraswathy Venkatraman Matriculation Hr Sec School</item>
+        <item>SBOA Global School</item>
+        <item>SBOA Matriculation and Higher Secondary School Anna Nagar</item>
+        <item>SBOA School and Junior College Anna Nagar</item>
+        <item>Sharanalaya Montessori School</item>
+        <item>Sherwood Hall Senior Secondary School</item>
+        <item>Shree Gugans</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Anna Nagar</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Nungambakkam</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Villivakkam</item>
+        <item>Shri Natesan Vidyasala Matriculation Higher Secondary School</item>
+        <item>Shrine Vailankanni Senior Secondary School</item>
+        <item>Silver N Springs Nursery and Primary School</item>
+        <item>Sindhi Model Senior Secondary School</item>
+        <item>Singaram Pillay Higher Secondary School</item>
+        <item>Sir M Venkatasubba Rao Matriculation Higher Secondary School</item>
+        <item>Sir Ramaswami Mudaliar Higher Secondary School</item>
+        <item>Sir Ramaswamy Mudaliar Higher Secondary School</item>
+        <item>Sir Siva Swami Kalalaya Senior Secondary</item>
+        <item>Sishya School</item>
+        <item>Sitadevi Garodia Hindu Vidyalaya</item>
+        <item>Sivanthi Public School</item>
+        <item>Sivasakthi Matriculation School</item>
+        <item>Smt Chandabai Pagariya Jain Matriculation Higher Secondary School Perambur</item>
+        <item>Smt Kasturba Chetty Vivekananda Vidyalaya Junior College</item>
+        <item>Smt Narbada Devi J Agarwal Vivekananda Vidyalaya Junior College</item>
+        <item>Smt Ramkuwar Devi Fomra Vivekananda Vidyalaya</item>
+        <item>Spartan Exclusive School Mogappair East</item>
+        <item>Spartan Matric Higher Secondary School Mogappair</item>
+        <item>Sree Narayana Mission Senior Secondary School West Mambalam</item>
+        <item>Sree Sankara Bala Vidyalaya Golden Jubilee School</item>
+        <item>Sree Vidya Mandir Primary and Nursery School</item>
+        <item>Sreevatsa Viswanathan Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Badalchand Sayarchand Chordia Jain Vidyalaya Matriculation School</item>
+        <item>Sri Chaitanya School Perumbakkam</item>
+        <item>Sri Chaitanya Techno School RA Puram</item>
+        <item>Sri Kanchi Mahaswamy Vidya Mandir</item>
+        <item>Sri Ram Dayal Khemka Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Sankara Global Academy</item>
+        <item>Sri Sankara Senior Secondary School</item>
+        <item>Sri Sarada Secondary School</item>
+        <item>Sri Sathya Sai Institute of Educare</item>
+        <item>Sri Sitaram Vidyalaya Matriculation Higher Secondary School</item>
+        <item>Sri Sushwani Matha Jain Vidyalaya</item>
+        <item>Sri Vidhya Academy International School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>SRM Nightingale Matriculation Higher Secondary School</item>
+        <item>St Anthonys Anglo Indian High School</item>
+        <item>St Brittos Academy</item>
+        <item>St Brittos Matriculation Higher Secondary School</item>
+        <item>St Francis International School</item>
+        <item>St Johns English School and Junior College Besant Nagar</item>
+        <item>St Johns International School Poonamalle</item>
+        <item>St Johns Matriculation Higher Secondary School Alwarthirunagar</item>
+        <item>St Johns Senior Secondary School and Junior College Mandaveli</item>
+        <item>St Josephs Mat Hr Sec School Poonamalle</item>
+        <item>St Josephs Residential School Sriperumbudur</item>
+        <item>St Kevins Anglo Indian High School</item>
+        <item>St Marks Nursery and Primary School</item>
+        <item>St Marys Matriculation Boys Higher Secondary School Perambur</item>
+        <item>St Michaels Academy Matriculation Higher Secondary School Adyar</item>
+        <item>St Savio Matriculation Higher Secondary School </item>
+        <item>St Vincents Matriculation Higher Secondary School</item>
+        <item>Sunbeam Matriculation Higher Secondary School</item>
+        <item>SushilHari International Residential School</item>
+        <item>T I Matriculation Higher Secondary School</item>
+        <item>Tatva School</item>
+        <item>Terapanth Jain Vidayalaya Mat Higher Secondary School</item>
+        <item>The British International School Neelankarai</item>
+        <item>The Fathima Matriculation Higher Secondary School</item>
+        <item>The Grove School Teynampet</item>
+        <item>The Hindu Colony Chellammal Vidyalaya Senior Secondary School</item>
+        <item>The Hindu Senior Secondary School</item>
+        <item>The Hindu Senior Secondary School</item>
+        <item>The Holy Cross Matriculation Hr Sec School</item>
+        <item>The Indian Public School Saidapet</item>
+        <item>The Lords International School</item>
+        <item>The PSBB Millennium School Gerugambakkam</item>
+        <item>The PSBB Millennium School OMR</item>
+        <item>The Pupil Saveetha Eco School</item>
+        <item>The Schram Academy Anna Nagar</item>
+        <item>The Schram Academy Maduravoyal</item>
+        <item>Thiruthangal Nadar Vidhyalaya</item>
+        <item>TI Matric Higher Secondary School</item>
+        <item>Trileaves International School</item>
+        <item>Union Christian Matriculation Higher Secondary School</item>
+        <item>Unity Matriculation School</item>
+        <item>Unity Public School</item>
+        <item>V KIDS</item>
+        <item>Vadapalani Matriculation Higher Secondary School</item>
+        <item>Vailankanni Matriculation Higher Secondary School</item>
+        <item>Valliammal School Mogappair</item>
+        <item>Vani Vidyalaya Senior Secondary and Junior College</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair West</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair</item>
+        <item>Velammal Matriculation Higher Secondary School Surapet</item>
+        <item>Velammal New Gen Alapakkam</item>
+        <item>Velammal New Gen Kelambakkam</item>
+        <item>Velammal New Gen School Madipakkam</item>
+        <item>Velammal New Gen School Medavakkam</item>
+        <item>Velammal NewGen School Madhavaram</item>
+        <item>Velammal NewGen School Vengambakkam</item>
+        <item>Velammal Vidyalaya Mel Ayanambakkam</item>
+        <item>Velammal Vidyashram Sholinganallur</item>
+        <item>Velammal Vidyashram</item>
+        <item>Vellayan Chettiar Higher Secondary School</item>
+        <item>Vels Vidyashram Thalambur</item>
+        <item>Vels Vidyashram</item>
+        <item>Vidya Mandir Senior Secondary School Mylapore</item>
+        <item>Vidya Mandir Senior Secondary School</item>
+        <item>Vidya Ratna PTS Matriculation Higher Secondary School</item>
+        <item>Vijayanta Model Higher Secondary School</item>
+        <item>Vivekananda matriculation higher secondary school</item>
+        <item>Vruksha Montessori School</item>
+        <item>Vruksha Vidhyaashram School</item>
+        <item>Zigma Matriculation School</item>
+    </string-array>
+    <string-array name="ib_schools">
+        <item>Akshar Arbol International School</item>
+        <item>MCTM Chidambaram Chettyar International School</item>
+        <item>Gateway American International School Padur</item>
+        <item>American International School</item>
+        <item>Geekz Micro School</item>
+    </string-array>
+
+    <string-array name="igcse_schools">
+        <item>Agape KinderGarten School</item>
+        <item>Akshayah Matriculation Higher Secondary School</item>
+        <item>APL Global School</item>
+        <item>Budding Minds International School</item>
+        <item>CSI St Ebbas Matriculation Higher Secondary School</item>
+        <item>GGN International School</item>
+        <item>Hindustan International School</item>
+        <item>Kids Central</item>
+        <item>NPS International School Perumbakkam</item>
+        <item>Olive International School</item>
+        <item>Olive Public School</item>
+        <item>Spartan Matric Higher Secondary School Mogappair</item>
+        <item>Sri Sankara Global Academy</item>
+        <item>Tatva School</item>
+        <item>The Indian Public School Saidapet</item>
+        <item>The Lords International School</item>
+        <item>Vels Vidyashram Thalambur</item>
+        <item>Vruksha Montessori School</item>
+    </string-array>
+    <string-array name="icse_schools">
+        <item>Sishya School</item>
+        <item>CPS Global School Anna Nagar</item>
+        <item>Doveton Oakley Nursery and Primary School</item>
+        <item>Holy Sai International School</item>
+        <item>Primrose Schools</item>
+        <item>HLC International School</item>
+        <item>St Francis International School</item>
+        <item>Abacus Montessori School</item>
+        <item>Gateway The Complete School</item>
+        <item>The Grove School Teynampet</item>
+        <item>Chettinad Hari Shree Vidyalayam</item>
+        <item>Good Earth School</item>
+        <item>Calibre Academy International School</item>
+        <item>St Michaels Academy Matriculation Higher Secondary School Adyar</item>
+    </string-array>
+    <string-array name="state_schools">
+        <item>St Brittos Matriculation Higher Secondary School</item>
+        <item>Unity Matriculation School</item>
+        <item>New Prince Matriculation Higher Secondary School</item>
+        <item>GK Shetty Hindu Vidyalaya Matric Higher Secondary School</item>
+        <item>Kumararani Meena Muthiah Matriculation Higher Secondary School</item>
+        <item>Saraswathy Venkatraman Matriculation Hr Sec School</item>
+        <item>St Marks Nursery and Primary School</item>
+        <item>Vidya Ratna PTS Matriculation Higher Secondary School</item>
+        <item>Arulmigu Meenakshi Amman Public School</item>
+        <item>St Johns Matriculation Higher Secondary School Alwarthirunagar</item>
+        <item>TI Matric Higher Secondary School</item>
+        <item>Sir Ramaswamy Mudaliar Higher Secondary School</item>
+        <item>T I Matriculation Higher Secondary School</item>
+        <item>Hussain Memorial Matriculation Higher Secondary School</item>
+        <item>Sir Ramaswami Mudaliar Higher Secondary School</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Anna Nagar</item>
+        <item>British School Anna Nagar</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya JGVV</item>
+        <item>CSI Jessie Moses Matriculation and Higher Secondary School</item>
+        <item>Narayana E Techno School Arumbakkam</item>
+        <item>St Vincents Matriculation Higher Secondary School</item>
+        <item>GRT Mahalakshmi Vidyalaya Matriculation Higher Secondary School</item>
+        <item>MAK Matriculation Higher Secondary School</item>
+        <item>Bethel Matriculation Hr Sec School</item>
+        <item>Dhanish Matriculation Higher Secondary School Ayanavaram</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School</item>
+        <item>NSN Matriculation Higher Secondary School Chitlapakkam</item>
+        <item>St Aloysius Anglo Indian Girls Higher Secondary School</item>
+        <item>Saraswathi Vidyalaya Matriculation Higher Secondary School</item>
+        <item>NSN Matriculation Higher Secondary School</item>
+        <item>St Columbans Anglo Indian Higher Secondary School</item>
+        <item>Loyola Matriculation Higher Secondary School</item>
+        <item>Dhanish Matriculation Higher Secondary School Kolathur</item>
+        <item>Sacred Heart Matriculation Higher Secondary School</item>
+        <item>Bhagyam Chelliaha Matriculation School</item>
+        <item>AMM Matriculation Hr Sec School</item>
+        <item>Brilliant Matriculation Higher Secondary School</item>
+        <item>Sai Matriculation Higher Secondary School</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair</item>
+        <item>Zigma Matriculation School</item>
+        <item>DAV Matriculation Higher Secondary School Mogappair East</item>
+        <item>Santhome Higher Secondary School</item>
+        <item>Dominic Savio Matriculation School</item>
+        <item>Rosary Matriculation Higher Secondary School</item>
+        <item>Boston Matriculation Higher Secondary School</item>
+        <item>Sunbeam Matriculation Higher Secondary School</item>
+        <item>Arise n Shine International PreSchool</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Nungambakkam</item>
+        <item>Kumaran Asan Memorial Higher Secondary School</item>
+        <item>Good Shepherd Matriculation Higher Secondary School</item>
+        <item>Patasala Montessori School</item>
+        <item>Crescent Matriculation Higher Secondary School for Girls Nungambakkam</item>
+        <item>Annai Velankanni Matriculation Higher Secondary School</item>
+        <item>St Marys Anglo Indian Higher Secondary School</item>
+        <item>Kaligi Ranganathan Montford Matriculation higher secondary school</item>
+        <item>Smt Chandabai Pagariya Jain Matriculation Higher Secondary School Perambur</item>
+        <item>St Marys Matriculation Boys Higher Secondary School Perambur</item>
+        <item>Grace Matriculation School Perambur</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School</item>
+        <item>Sangford School</item>
+        <item>Christ Matric Higher Secondary School</item>
+        <item>St Josephs Mat Hr Sec School Poonamalle</item>
+        <item>MKM Matriculation School Porur</item>
+        <item>Vivekananda matriculation higher secondary school</item>
+        <item>Silver N Springs Nursery and Primary School</item>
+        <item>Wesley Higher Secondary School</item>
+        <item>St Kevins Anglo Indian High School</item>
+        <item>Alpha Matriculation Higher Secondary School Sembakkam</item>
+        <item>Sri Badalchand Sayarchand Chordia Jain Vidyalaya Matriculation School</item>
+        <item>Terapanth Jain Vidayalaya Mat Higher Secondary School</item>
+        <item>Kumkum Academy</item>
+        <item>St Helens Girls Higher Secondary School</item>
+        <item>National Matriculation Higher Secondary School St Thomas Mount</item>
+        <item>Velammal Matriculation Higher Secondary School Surapet</item>
+        <item>Sree Vidya Mandir Primary and Nursery School</item>
+        <item>Vidyodaya Schools</item>
+        <item>Sir M Venkatasubba Rao Matriculation Higher Secondary School</item>
+        <item>Ramakrishna Mission Higher Secondary School T Nagar</item>
+        <item>Holy Angels Anglo Indian Higher Secondary School</item>
+        <item>CSI Corley Higher Secondary School Tambaram</item>
+        <item>MCC Campus Matriculation Higher Secondary School Tambaram</item>
+        <item>Vellayan Chettiar Higher Secondary School</item>
+        <item>St Ursulas Anglo Indian Higher Secondary School</item>
+        <item>Hindu Higher Secondary School</item>
+        <item>Vadapalani Matriculation Higher Secondary School</item>
+        <item>Vailankanni Matriculation Higher Secondary School</item>
+        <item>Sivasakthi Matriculation School</item>
+        <item>St Savio Matriculation Higher Secondary School </item>
+        <item>Navadisha Montessori School</item>
+        <item>St Josephs Anglo Indian Boys Higher Secondary School Vepery</item>
+        <item>Singaram Pillay Higher Secondary School</item>
+        <item>Padmasarangapani Higher Secondary School</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Villivakkam</item>
+        <item>Padma Sarangapani School</item>
+        <item>AVM Rajeswari</item>
+        <item>Alpha Matriculation Higher Secondary School West CIT Nagar</item>
+        <item>SRM Nightingale Matriculation Higher Secondary School</item>
+        <item>Sri Sitaram Vidyalaya Matriculation Higher Secondary School</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair West</item>
+        <item>CSI Bain Matriculation Higher Secondary School Kilpauk</item>
+        <item>MCC Higher Secondary School Chetpet</item>
+        <item>Lady Andal Venkatasubba Rao Matriculation School Chetpet</item>
+        <item>Union Christian Matriculation Higher Secondary School</item>
+        <item>Don Bosco Matriculation Higher Secondary School</item>
+        <item>St Anthonys Anglo Indian High School</item>
+        <item>Alagappa Matriculation School</item>
+        <item>CSI Ewart Matriculation Higher Secondary School Purasawalkam</item>
+        <item>Anita Methodist School</item>
+        <item>Agarwal Vidyalaya Matriculation Higher Secondary School</item>
+        <item>SBOA Matriculation and Higher Secondary School Anna Nagar</item>
+        <item>NSN Matriculation Higher Secondary School Chrompet</item>
+        <item>Crescent School Vandalur</item>
+        <item>CSI Corley Higher Secondary School Tambaram</item>
+        <item>Christ King Convent and Primary School</item>
+        <item>MCC Campus Matriculation Higher Secondary School Tambaram</item>
+        <item>Shri Natesan Vidyasala Matriculation Higher Secondary School</item>
+    </string-array>
+
+    <string-array name="cbse_schools">
+        <item>Aachi Global School</item>
+        <item>Aadithiaa Vidyaa Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>Achariya Bala Siksha Mandir</item>
+        <item>AGR Global School</item>
+        <item>Agurchand Manmull Jain School</item>
+        <item>Air Force School</item>
+        <item>AKG Public School</item>
+        <item>Al Fajr International School</item>
+        <item>Alpha School CBSE</item>
+        <item>Alwin Memorial Public School</item>
+        <item>Amrita Vidyalayam</item>
+        <item>Army Public School Nandambakkam</item>
+        <item>Arsha Vidya Mandir</item>
+        <item>Asan Memorial Senior Secondary School</item>
+        <item>Babaji Vidhyashram</item>
+        <item>Bala Vidya Mandir Global</item>
+        <item>Bala Vidya Mandir Global</item>
+        <item>Bala Vidya Mandir</item>
+        <item>Besant Arundale Senior Secondary School</item>
+        <item>Bhaktavatsalam Vidyashram</item>
+        <item>Bharat Senior Secondary School</item>
+        <item>Bharathi Vidyalaya Senior Secondary School</item>
+        <item>Boaz Public School</item>
+        <item>Chennai Public School Thirumazhisai</item>
+        <item>Chhathrapathy Shivaji DAV Secondary School</item>
+        <item>Chinmaya Vidyalaya Kilpauk</item>
+        <item>Chinmaya Vidyalaya Senior Secondary School Anna Nagar</item>
+        <item>Chinmaya Vidyalaya Virugambakkam</item>
+        <item>Colours International School</item>
+        <item>DAV Boys Senior Secondary School Gopalapuram</item>
+        <item>DAV Boys Senior Secondary School Mogappair</item>
+        <item>DAV Girls Senior Secondary School Gopalapuram</item>
+        <item>DAV Girls Senior Secondary School Mogappair</item>
+        <item>DAV School Adambakkam</item>
+        <item>Dawn School</item>
+        <item>Delhi Public School Nallambakkam</item>
+        <item>Devi Academy Matriculation Higher Secondary School</item>
+        <item>Devi Academy Senior Secondary School</item>
+        <item>Don Bosco School of Excellence</item>
+        <item>Dr CL Metha Sishya School</item>
+        <item>Dr Nalli Kuppuswami Vivekananda Vidyalaya Junior College</item>
+        <item>Dr Nalli Kuppuswamy Vivekananda Vidyalaya</item>
+        <item>Ebenezer Marcus International School and Junior College</item>
+        <item>Everwin Vidyashram</item>
+        <item>Gateway International School Neelankarai</item>
+        <item>German International School Palavakkam</item>
+        <item>GK Shetty Vivekananda Vidyalaya Junior College</item>
+        <item>GKM Vidyashram</item>
+        <item>Godson Public School</item>
+        <item>GT Aloha Vidhya Mandir</item>
+        <item>Guru Shri Shanthivijay Jain Gurukul</item>
+        <item>Hiranandani Upscale School</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya</item>
+        <item>Jain Vidyaashram Puzhal</item>
+        <item>Jawahar Vidyalaya Senior Secondary School</item>
+        <item>Jaya Jaya Sankara International School</item>
+        <item>Kavi Bharathi Vidyalaya</item>
+        <item>Kendriya Vidyalaya AFS</item>
+        <item>Kendriya Vidyalaya Anna Nagar</item>
+        <item>Kendriya Vidyalaya CLRI</item>
+        <item>Kendriya Vidyalaya HVF</item>
+        <item>Kendriya Vidyalaya IIT</item>
+        <item>Kendriya Vidyalaya Kodambakkam</item>
+        <item>Kendriya Vidyalaya Meenambakkam</item>
+        <item>Kendriya Vidyalaya No 2 Selaiyur</item>
+        <item>Kendriya Vidyalaya OCF</item>
+        <item>Kendriya Vidyalaya Palavanthangal</item>
+        <item>Kendriya Vidyalaya Park Town</item>
+        <item>Kola Perumal Chetty Vaishnav Senior Secondary School</item>
+        <item>Kola Saraswathi Vaishnav Senior Secondary School</item>
+        <item>Krishnamurthi Foundation India KFI</item>
+        <item>Krishnamurti Foundation India Adyar</item>
+        <item>KRM Public School</item>
+        <item>La Chatelaine Residential Junior College</item>
+        <item>Lalaji Memorial Omega International School</item>
+        <item>LM DADHA Senior Secondary School</item>
+        <item>Loyola International Residential School</item>
+        <item>Maharishi School of Excellence</item>
+        <item>Maharishi Vidya Mandir</item>
+        <item>Mahaveer Rajasthani International School</item>
+        <item>Mangadu Public School</item>
+        <item>Manthan Vidyashram</item>
+        <item>Narayana E Techno School Neelankarai</item>
+        <item>Narayana E Techno School Ramapuram</item>
+        <item>Narayana Olympiad School Gopalapuram</item>
+        <item>Narayana Olympiad School Vepery</item>
+        <item>Narayana School Kolathur</item>
+        <item>National Public School Gopalapuram</item>
+        <item>Padma Seshadri Bala Bhavan KK Nagar</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School Siruseri</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School T Nagar</item>
+        <item>Padmashree CBSE School Kolathur</item>
+        <item>Pon Vidyashram Injambakkam</item>
+        <item>Pon Vidyashram Kolapakkam</item>
+        <item>Pon Vidyashram School Valasaravakkam</item>
+        <item>Pon Vidyashram School Velachery</item>
+        <item>Pon Vidyashram Virugambakkam</item>
+        <item>PS Senior Secondary School</item>
+        <item>Ramana Vidyalaya</item>
+        <item>Reserve Bank Staff Quarters School</item>
+        <item>RMK Residential School</item>
+        <item>RMK Senior Secondary School</item>
+        <item>Round Table 30 Vivekananda Vidyalaya</item>
+        <item>Sairam Vidyalaya</item>
+        <item>SAN Academy</item>
+        <item>Sana Model school</item>
+        <item>Saraswathi Vidyalaya Vidapalani</item>
+        <item>SBOA Global School</item>
+        <item>SBOA School and Junior College Anna Nagar</item>
+        <item>Sharanalaya Montessori School</item>
+        <item>Sherwood Hall Senior Secondary School</item>
+        <item>Shree Gugans</item>
+        <item>Shri BS Mootha Girls Sr Sec School</item>
+        <item>Shrine Vailankanni Senior Secondary School</item>
+        <item>Sindhi Model Senior Secondary School</item>
+        <item>Sir Siva Swami Kalalaya Senior Secondary</item>
+        <item>Sivanthi Public School</item>
+        <item>Smt Kasturba Chetty Vivekananda Vidyalaya Junior College</item>
+        <item>Smt Narbada Devi J Agarwal Vivekananda Vidyalaya Junior College</item>
+        <item>Spartan Exclusive School Mogappair East</item>
+        <item>Sree Sankara Bala Vidyalaya Golden Jubilee School</item>
+        <item>Sreevatsa Viswanathan Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Chaitanya School Perumbakkam</item>
+        <item>Sri Chaitanya Techno School RA Puram</item>
+        <item>Sri Kanchi Mahaswamy Vidya Mandir</item>
+        <item>Sri Ram Dayal Khemka Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Sankara Senior Secondary School</item>
+        <item>Sri Sarada Secondary School</item>
+        <item>Sri Sushwani Matha Jain Vidyalaya</item>
+        <item>Sri Vidhya Academy International School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>St Bedes Academy</item>
+        <item>St Brittos Academy</item>
+        <item>St Johns English School and Junior College Besant Nagar</item>
+        <item>St Johns International School Poonamalle</item>
+        <item>St Johns Senior Secondary School and Junior College Mandaveli</item>
+        <item>St Josephs Residential School Sriperumbudur</item>
+        <item>SushilHari International Residential School</item>
+        <item>The British International School Neelankarai</item>
+        <item>The Fathima Matriculation Higher Secondary School</item>
+        <item>The Hindu Colony Chellammal Vidyalaya Senior Secondary School</item>
+        <item>The Hindu Senior Secondary School</item>
+        <item>The Hindu Senior Secondary School</item>
+        <item>The Holy Cross Matriculation Hr Sec School</item>
+        <item>The PSBB Millennium School Gerugambakkam</item>
+        <item>The PSBB Millennium School OMR</item>
+        <item>The Pupil Saveetha Eco School</item>
+        <item>The Schram Academy Anna Nagar</item>
+        <item>The Schram Academy Maduravoyal</item>
+        <item>Thiruthangal Nadar Vidhyalaya</item>
+        <item>Trileaves International School</item>
+        <item>Unity Public School</item>
+        <item>V KIDS</item>
+        <item>Valliammal School Mogappair</item>
+        <item>Vani Vidyalaya Senior Secondary and Junior College</item>
+        <item>Velammal New Gen Alapakkam</item>
+        <item>Velammal New Gen Kelambakkam</item>
+        <item>Velammal New Gen School Medavakkam</item>
+        <item>Velammal NewGen School Madhavaram</item>
+        <item>Velammal Vidyalaya Mel Ayanambakkam</item>
+        <item>Velammal Vidyashram Sholinganallur</item>
+        <item>Velammal Vidyashram</item>
+        <item>Vidya Mandir Senior Secondary School Mylapore</item>
+        <item>Vidya Mandir Senior Secondary School</item>
+        <item>Vijayanta Model Higher Secondary School</item>
+        <item>Vruksha Vidhyaashram School</item>
+    </string-array>
+    <string-array name="array_schools">
+        <item>Aachi Global School</item>
+        <item>Aadithiaa Vidyaa Mandir</item>
+        <item>Abacus Montessori School</item>
+        <item>Achariya Bala Siksha Mandir Adyar</item>
+        <item>Achariya Bala Siksha Mandir Saligramam</item>
+        <item>Achariya Bala Siksha Mandir Valasaravakkam</item>
+        <item>Achariya Bala Siksha Mandir Virugambakkam</item>
+        <item>Agape KinderGarten School</item>
+        <item>Agarwal Vidyalaya Matriculation Higher Secondary School</item>
+        <item>AGR Global School</item>
+        <item>Agurchand Manmull Jain School</item>
+        <item>Air Force School</item>
+        <item>AKG Public School</item>
+        <item>Akshar Arbol International School</item>
+        <item>Akshayah Matriculation Higher Secondary School</item>
+        <item>Al Fajr International School</item>
+        <item>Alagappa Matriculation School</item>
+        <item>Alpha Matriculation Higher Secondary School Sembakkam</item>
+        <item>Alpha Matriculation Higher Secondary School West CIT Nagar</item>
+        <item>Alpha School CBSE</item>
+        <item>Alwin Memorial Public School</item>
+        <item>American International School</item>
+        <item>AMM Matriculation Hr Sec School</item>
+        <item>Amrita Vidyalayam</item>
+        <item>Anita Methodist School</item>
+        <item>Annai Velankanni Matriculation Higher Secondary School</item>
+        <item>APL Global School</item>
+        <item>Arise n Shine International PreSchool</item>
+        <item>Army Public School Nandambakkam</item>
+        <item>Arsha Vidya Mandir</item>
+        <item>Arulmigu Meenakshi Amman Public School</item>
+        <item>Asan Memorial Senior Secondary School</item>
+        <item>AVM Rajeswari</item>
+        <item>Baalya School</item>
+        <item>Babaji Vidhyashram</item>
+        <item>Bala Vidya Mandir Adyar</item>
+        <item>Bala Vidya Mandir Global Bollineni Hillside</item>
+        <item>Bala Vidya Mandir Global Perungudi</item>
+        <item>Besant Arundale Senior Secondary School</item>
+        <item>Bethel Matriculation Hr Sec School</item>
+        <item>Bhagyam Chelliaha Matriculation School</item>
+        <item>Bhaktavatsalam Vidyashram</item>
+        <item>Bharat Senior Secondary School</item>
+        <item>Bharathi Vidyalaya Senior Secondary School</item>
+        <item>Bharatiya Vidhya Bhavans Rajaji Vidyashram</item>
+        <item>Boaz Public School</item>
+        <item>Boston Matriculation Higher Secondary School</item>
+        <item>Brilliant Matriculation Higher Secondary School</item>
+        <item>British School Anna Nagar</item>
+        <item>Budding Minds International School</item>
+        <item>Calibre Academy International School</item>
+        <item>Chennai Public School Anna nagar</item>
+        <item>Chennai Public School Thirumazhisai</item>
+        <item>Chettinad Hari Shree Vidyalayam</item>
+        <item>Chhathrapathy Shivaji DAV Secondary School</item>
+        <item>Chinmaya Vidyalaya Kilpauk</item>
+        <item>Chinmaya Vidyalaya Senior Secondary School Anna Nagar</item>
+        <item>Chinmaya Vidyalaya Virugambakkam</item>
+        <item>Christ King Convent and Primary School</item>
+        <item>Christ Matric Higher Secondary School</item>
+        <item>Colours International School</item>
+        <item>CPS Global School Anna Nagar</item>
+        <item>Crescent Matriculation Higher Secondary School for Girls Nungambakkam</item>
+        <item>Crescent School Vandalur</item>
+        <item>CSI Bain Matriculation Higher Secondary School Kilpauk</item>
+        <item>CSI Corley Higher Secondary School Tambaram</item>
+        <item>CSI Ewart Matriculation Higher Secondary School Purasawalkam</item>
+        <item>CSI Jessie Moses Matriculation and Higher Secondary School</item>
+        <item>CSI St Ebbas Matriculation Higher Secondary School</item>
+        <item>DAV Boys Senior Secondary School Gopalapuram</item>
+        <item>DAV Boys Senior Secondary School Mogappair</item>
+        <item>DAV Girls Senior Secondary School Gopalapuram</item>
+        <item>DAV Girls Senior Secondary School Mogappair</item>
+        <item>DAV Matriculation Higher Secondary School Mogappair East</item>
+        <item>DAV School Adambakkam</item>
+        <item>Dawn School</item>
+        <item>Delhi Public School Nallambakkam</item>
+        <item>Devi Academy Senior Secondary School</item>
+        <item>Dhanish Matriculation Higher Secondary School Ayanavaram</item>
+        <item>Dhanish Matriculation Higher Secondary School Kolathur</item>
+        <item>Dominic Savio Matriculation School</item>
+        <item>Don Bosco Matriculation Higher Secondary School</item>
+        <item>Don Bosco School of Excellence</item>
+        <item>Doveton Oakley Nursery and Primary School</item>
+        <item>Dr CL Metha Sishya School</item>
+        <item>Dr Nalli Kuppuswami Vivekananda Vidyalaya Junior College</item>
+        <item>Ebenezer Marcus International School and Junior College</item>
+        <item>Everwin Vidyashram</item>
+        <item>Gateway American International School Padur</item>
+        <item>Gateway International School Neelankarai</item>
+        <item>Gateway The Complete School</item>
+        <item>Geekz Micro School</item>
+        <item>German International School Palavakkam</item>
+        <item>GGN International School</item>
+        <item>GK Shetty Hindu Vidyalaya Matric Higher Secondary School</item>
+        <item>GK Shetty Vivekananda Vidyalaya Junior College</item>
+        <item>GKM Vidyashram</item>
+        <item>Godson Public School</item>
+        <item>Good Earth School</item>
+        <item>Good Shepherd Matriculation Higher Secondary School</item>
+        <item>Grace Matriculation School Perambur</item>
+        <item>GRT Mahalakshmi Vidyalaya Matriculation Higher Secondary School</item>
+        <item>GT Aloha Vidhya Mandir</item>
+        <item>Guru Shree Shantivijai Jain Vidyalaya</item>
+        <item>Guru Shri Shanthivijay Jain Gurukul</item>
+        <item>Hindu Higher Secondary School</item>
+        <item>Hindustan International School</item>
+        <item>Hiranandani Upscale School</item>
+        <item>HLC International School</item>
+        <item>Holy Angels Anglo Indian Higher Secondary School</item>
+        <item>Holy Sai International School</item>
+        <item>Hussain Memorial Matriculation Higher Secondary School</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya Avadi</item>
+        <item>Jaigopal Garodia Vivekananda Vidyalaya Anna nagar</item>
+        <item>Jain Vidyaashram Puzhal</item>
+        <item>Jawahar Vidyalaya Senior Secondary School</item>
+        <item>Jaya Jaya Sankara International School</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School Ayanavaram</item>
+        <item>Kaligi Ranganathan Montford Matric Hr Sec School</item>
+        <item>Kavi Bharathi Vidyalaya Tiruvottiyur</item>
+        <item>Kendriya Vidyalaya AFS</item>
+        <item>Kendriya Vidyalaya Anna Nagar</item>
+        <item>Kendriya Vidyalaya CLRI</item>
+        <item>Kendriya Vidyalaya HVF</item>
+        <item>Kendriya Vidyalaya IIT</item>
+        <item>Kendriya Vidyalaya Kodambakkam</item>
+        <item>Kendriya Vidyalaya Meenambakkam</item>
+        <item>Kendriya Vidyalaya No 1</item>
+        <item>Kendriya Vidyalaya No 2 Selaiyur</item>
+        <item>Kendriya Vidyalaya OCF</item>
+        <item>Kendriya Vidyalaya Palavanthangal</item>
+        <item>Kendriya Vidyalaya Park Town</item>
+        <item>Kids Central</item>
+        <item>Knowledge Academy School</item>
+        <item>Kola Perumal Chetty Vaishnav Senior Secondary School</item>
+        <item>Kola Saraswathi Vaishnav Senior Secondary School</item>
+        <item>Krishnamurthi Foundation India KFI</item>
+        <item>KRM Public School</item>
+        <item>Kumaran Asan Memorial Higher Secondary School </item>
+        <item>Kumararani Meena Muthiah Matriculation Higher Secondary School Adyar</item>
+        <item>Kumkum Academy</item>
+        <item>La Chatelaine Residential Junior College</item>
+        <item>Lady Andal Venkatasubba Rao Matriculation School Chetpet</item>
+        <item>Lalaji Memorial Omega International School</item>
+        <item>LM DADHA Senior Secondary School</item>
+        <item>Loyola International Residential School</item>
+        <item>Loyola Matriculation Higher Secondary School</item>
+        <item>Maharishi School of Excellence</item>
+        <item>Maharishi Vidya Mandir Polachery</item>
+        <item>Maharishi Vidya Mandir Senior Secondary School Chetpet</item>
+        <item>Mahaveer Rajasthani International School</item>
+        <item>MAK Matriculation Higher Secondary School</item>
+        <item>Mangadu Public School</item>
+        <item>Manthan Vidyashram</item>
+        <item>MCC Campus Matriculation Higher Secondary School Tambaram</item>
+        <item>MCC Higher Secondary School Chetpet</item>
+        <item>MCTM Chidambaram Chettyar International School</item>
+        <item>MKM Matriculation School Porur</item>
+        <item>Narayana E Techno School Arumbakkam</item>
+        <item>Narayana E Techno School Neelankarai</item>
+        <item>Narayana E Techno School Ramapuram</item>
+        <item>Narayana Olympiad School Gopalapuram</item>
+        <item>Narayana Olympiad School Vepery</item>
+        <item>Narayana School Kolathur</item>
+        <item>National Matriculation Higher Secondary School St Thomas Mount</item>
+        <item>National Public School Gopalapuram</item>
+        <item>Navadisha Montessori School</item>
+        <item>New Prince Matriculation Higher Secondary School</item>
+        <item>NPS International School Perumbakkam</item>
+        <item>NSN Matriculation Higher Secondary School Chitlapakkam</item>
+        <item>NSN Matriculation Higher Secondary School Chrompet</item>
+        <item>Olive International School</item>
+        <item>Olive Public School</item>
+        <item>Padma Sarangapani School</item>
+        <item>Padma Seshadri Bala Bhavan KK Nagar</item>
+        <item>Padma Seshadri Bala Bhavan Nungambakkam</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School Siruseri</item>
+        <item>Padma Seshadri Bala Bhavan Senior Secondary School T Nagar</item>
+        <item>Padmasarangapani Higher Secondary School</item>
+        <item>Padmashree CBSE School Kolathur</item>
+        <item>Patasala Montessori School</item>
+        <item>Pon Vidyashram Injambakkam</item>
+        <item>Pon Vidyashram Kolapakkam</item>
+        <item>Pon Vidyashram School Valasaravakkam</item>
+        <item>Pon Vidyashram School Velachery</item>
+        <item>Pon Vidyashram Virugambakkam</item>
+        <item>Primrose Schools</item>
+        <item>PS Senior Secondary School</item>
+        <item>Ramakrishna Mission Higher Secondary School T Nagar</item>
+        <item>Ramana Vidyalaya</item>
+        <item>Ravindra Bharathi Global School Keelkattalai</item>
+        <item>Ravindra Bharathi Global School Nandambakkam</item>
+        <item>Ravindra Bharathi School Puzhal</item>
+        <item>Reserve Bank Staff Quarters School</item>
+        <item>RMK Residential School</item>
+        <item>RMK Senior Secondary School</item>
+        <item>Rosary Matriculation Higher Secondary School</item>
+        <item>Round Table 30 Vivekananda Vidyalaya</item>
+        <item>Sacred Heart Matriculation Higher Secondary School</item>
+        <item>Sai Matriculation Higher Secondary School</item>
+        <item>Sairam Vidyalaya</item>
+        <item>SAN Academy Pallikaranai</item>
+        <item>SAN Academy Velachery</item>
+        <item>Sana Model school</item>
+        <item>Sangford School</item>
+        <item>Santhome Higher Secondary School</item>
+        <item>Saraswathi Vidyalaya Matriculation Higher Secondary School Choolaimedu</item>
+        <item>Saraswathi Vidyalaya Vidapalani</item>
+        <item>Saraswathy Venkatraman Matriculation Hr Sec School</item>
+        <item>SBOA Global School</item>
+        <item>SBOA Matriculation and Higher Secondary School Anna Nagar</item>
+        <item>SBOA School and Junior College Anna Nagar</item>
+        <item>Sharanalaya Montessori School</item>
+        <item>Sherwood Hall Senior Secondary School</item>
+        <item>Shree Gugans</item>
+        <item>Shri BS Mootha Girls Sr Sec School</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Anna Nagar</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Nungambakkam</item>
+        <item>Shri Krishnaswamy Matriculation Higher Secondary School Villivakkam</item>
+        <item>Shri Natesan Vidyasala Matriculation Higher Secondary School</item>
+        <item>Shrine Vailankanni Senior Secondary School</item>
+        <item>Silver N Springs Nursery and Primary School</item>
+        <item>Sindhi Model Senior Secondary School</item>
+        <item>Singaram Pillay Higher Secondary School</item>
+        <item>Sir M Venkatasubba Rao Matriculation Higher Secondary School</item>
+        <item>Sir Ramaswamy Mudaliar Higher Secondary School</item>
+        <item>Sir Siva Swami Kalalaya Senior Secondary</item>
+        <item>Sishya School</item>
+        <item>Sitadevi Garodia Hindu Vidyalaya</item>
+        <item>Sivanthi Public School</item>
+        <item>Sivasakthi Matriculation School</item>
+        <item>Smt Chandabai Pagariya Jain Matriculation Higher Secondary School Perambur</item>
+        <item>Smt Kasturba Chetty Vivekananda Vidyalaya Junior College</item>
+        <item>Smt Narbada Devi J Agarwal Vivekananda Vidyalaya Junior College</item>
+        <item>Smt Ramkuwar Devi Fomra Vivekananda Vidyalaya</item>
+        <item>Spartan Exclusive School Mogappair East</item>
+        <item>Spartan Matric Higher Secondary School Mogappair</item>
+        <item>Sree Narayana Mission Senior Secondary School West Mambalam</item>
+        <item>Sree Sankara Bala Vidyalaya Golden Jubilee School</item>
+        <item>Sree Vidya Mandir Primary and Nursery School</item>
+        <item>Sreevatsa Viswanathan Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Badalchand Sayarchand Chordia Jain Vidyalaya Matriculation School</item>
+        <item>Sri Chaitanya School Perumbakkam</item>
+        <item>Sri Chaitanya Techno School RA Puram</item>
+        <item>Sri Kanchi Mahaswamy Vidya Mandir</item>
+        <item>Sri Ram Dayal Khemka Vivekananda Vidyalaya Junior College</item>
+        <item>Sri Sankara Global Academy</item>
+        <item>Sri Sankara Senior Secondary School</item>
+        <item>Sri Sarada Secondary School</item>
+        <item>Sri Sathya Sai Institute of Educare</item>
+        <item>Sri Sitaram Vidyalaya Matriculation Higher Secondary School</item>
+        <item>Sri Sushwani Matha Jain Vidyalaya</item>
+        <item>Sri Vidhya Academy International School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>Srimathi Sundaravalli Memorial School</item>
+        <item>SRM Nightingale Matriculation Higher Secondary School</item>
+        <item>St Aloysius Anglo Indian Girls Higher Secondary School</item>
+        <item>St Anthonys Anglo Indian High School</item>
+        <item>St Bedes Academy</item>
+        <item>St Brittos Academy</item>
+        <item>St Brittos Matriculation Higher Secondary School</item>
+        <item>St Columbans Anglo Indian Higher Secondary School</item>
+        <item>St Dominics Anglo Indian Higher Secondary School</item>
+        <item>St Francis International School</item>
+        <item>St Helens Girls Higher Secondary School</item>
+        <item>St Johns English School and Junior College Besant Nagar</item>
+        <item>St Johns International School Poonamalle</item>
+        <item>St Johns Matriculation Higher Secondary School Alwarthirunagar</item>
+        <item>St Johns Senior Secondary School and Junior College Mandaveli</item>
+        <item>St Josephs Anglo Indian Boys Higher Secondary School Vepery</item>
+        <item>St Josephs Mat Hr Sec School Poonamalle</item>
+        <item>St Josephs Residential School Sriperumbudur</item>
+        <item>St Kevins Anglo Indian High School</item>
+        <item>St Marks Nursery and Primary School</item>
+        <item>St Marys Anglo Indian Higher Secondary School</item>
+        <item>St Marys Matriculation Boys Higher Secondary School Perambur</item>
+        <item>St Michaels Academy Matriculation Higher Secondary School Adyar</item>
+        <item>St Savio Matriculation Higher Secondary School</item>
+        <item>St Ursulas Anglo Indian Higher Secondary School</item>
+        <item>St Vincents Matriculation Higher Secondary School</item>
+        <item>Sunbeam Matriculation Higher Secondary School</item>
+        <item>SushilHari International Residential School</item>
+        <item>T I Matriculation Higher Secondary School Ambattur</item>
+        <item>Tatva School</item>
+        <item>Terapanth Jain Vidayalaya Mat Higher Secondary School</item>
+        <item>The British International School Neelankarai</item>
+        <item>The Fathima Matriculation Higher Secondary School</item>
+        <item>The Grove School Teynampet</item>
+        <item>The Hindu Colony Chellammal Vidyalaya Senior Secondary School</item>
+        <item>The Hindu Senior Secondary School Adyar</item>
+        <item>The Hindu Senior Secondary School Triplicane</item>
+        <item>The Holy Cross Matriculation Hr Sec School</item>
+        <item>The Indian Public School Saidapet</item>
+        <item>The Lords International School</item>
+        <item>The PSBB Millennium School Gerugambakkam</item>
+        <item>The PSBB Millennium School OMR</item>
+        <item>The Pupil Saveetha Eco School</item>
+        <item>The Schram Academy Anna Nagar</item>
+        <item>The Schram Academy Maduravoyal</item>
+        <item>Thiruthangal Nadar Vidhyalaya</item>
+        <item>TI Matric Higher Secondary School Ambattur</item>
+        <item>Trileaves International School</item>
+        <item>Union Christian Matriculation Higher Secondary School</item>
+        <item>Unity Matriculation School</item>
+        <item>Unity Public School</item>
+        <item>V KIDS</item>
+        <item>Vadapalani Matriculation Higher Secondary School</item>
+        <item>Vailankanni Matriculation Higher Secondary School</item>
+        <item>Valliammal School Mogappair</item>
+        <item>Vani Vidyalaya Senior Secondary and Junior College</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair</item>
+        <item>Velammal Matriculation Higher Secondary School Mogappair West</item>
+        <item>Velammal Matriculation Higher Secondary School Surapet</item>
+        <item>Velammal New Gen Alapakkam</item>
+        <item>Velammal New Gen Kelambakkam</item>
+        <item>Velammal New Gen School Madipakkam</item>
+        <item>Velammal New Gen School Medavakkam</item>
+        <item>Velammal NewGen School Madhavaram</item>
+        <item>Velammal NewGen School Vengambakkam</item>
+        <item>Velammal Vidyalaya Mel Ayanambakkam</item>
+        <item>Velammal Vidyashram Mambakkam</item>
+        <item>Velammal Vidyashram Sholinganallur</item>
+        <item>Vellayan Chettiar Higher Secondary School</item>
+        <item>Vels Vidyashram Pallavaram</item>
+        <item>Vels Vidyashram Thalambur</item>
+        <item>Vidya Mandir Senior Secondary School Estancia</item>
+        <item>Vidya Mandir Senior Secondary School Mylapore</item>
+        <item>Vidya Ratna PTS Matriculation Higher Secondary School</item>
+        <item>Vidyodaya Schools</item>
+        <item>Vijayanta Model Higher Secondary School</item>
+        <item>Vivekananda matriculation higher secondary school</item>
+        <item>Vruksha Montessori School</item>
+        <item>Vruksha Vidhyaashram School</item>
+        <item>Wesley Higher Secondary School</item>
+        <item>Zigma Matriculation School</item>
+    </string-array>
+    <string-array name="array_areas">
+        <item>Adambakkam</item>
+        <item>Adyar</item>
+        <item>AFS</item>
+        <item>Agathiyar Nagar</item>
+        <item>Alandur</item>
+        <item>Alapakkam</item>
+        <item>Alwarpet</item>
+        <item>Alwarthirunagar</item>
+        <item>Ambattur north</item>
+        <item>Ambattur West</item>
+        <item>Ambattur</item>
+        <item>Amijikarai</item>
+        <item>Anakaputhur</item>
+        <item>Anna nagar west</item>
+        <item>Anna nagar</item>
+        <item>Annanur</item>
+        <item>Arakkonam</item>
+        <item>Arumbakkam</item>
+        <item>Ashok Nagar</item>
+        <item>Athipattu</item>
+        <item>Avadi north</item>
+        <item>Avadi</item>
+        <item>Ayanavaram</item>
+        <item>Ayapakkam</item>
+        <item>Ayappakkam</item>
+        <item>Basin Bridge</item>
+        <item>Besant Nagar</item>
+        <item>Bhuvaneshwari Nagar</item>
+        <item>Broadway</item>
+        <item>Butt Road</item>
+        <item>Central</item>
+        <item>Chepauk</item>
+        <item>Chetpet</item>
+        <item>Chinmaya Nagar</item>
+        <item>Chintadripet</item>
+        <item>Chitlapakkam</item>
+        <item>Choolai</item>
+        <item>Choolaimedu</item>
+        <item>Chrompet</item>
+        <item>CIT nagar</item>
+        <item>CLRI</item>
+        <item>CMDA Colony</item>
+        <item>Defence Colony</item>
+        <item>Edapalayam</item>
+        <item>Egmore</item>
+        <item>Ekkaduthangal</item>
+        <item>Ennore</item>
+        <item>Ernavur</item>
+        <item>Erukanchery</item>
+        <item>Estancia</item>
+        <item>Forest Estate</item>
+        <item>Fort St George</item>
+        <item>George Town</item>
+        <item>Gerugambakkam</item>
+        <item>Gopalapuram</item>
+        <item>Government Estate</item>
+        <item>Gowrivakkam</item>
+        <item>Gudapakkam</item>
+        <item>Guduvancheri</item>
+        <item>Guindy</item>
+        <item>Gummidipoondi</item>
+        <item>HVF</item>
+        <item>ICF</item>
+        <item>IIT</item>
+        <item>Injambakkam</item>
+        <item>Iyyappanthangal</item>
+        <item>Jafferkhanpet</item>
+        <item>Jamalia</item>
+        <item>Kadambakkam</item>
+        <item>Kallikuppam</item>
+        <item>Kanathur</item>
+        <item>Kandigai</item>
+        <item>Karambakkam</item>
+        <item>Karanai</item>
+        <item>Karapakkam</item>
+        <item>Kathirvedu</item>
+        <item>Kathivakkam</item>
+        <item>Kattupakkam</item>
+        <item>Kavangarai</item>
+        <item>Kazhipattur</item>
+        <item>Keelkattalai</item>
+        <item>Kelambakkam</item>
+        <item>Kellys</item>
+        <item>Kilpauk</item>
+        <item>KK Nagar</item>
+        <item>Kodungaiyur East</item>
+        <item>Kodungaiyur West</item>
+        <item>Kolappakkam</item>
+        <item>Kolathur</item>
+        <item>Korattur</item>
+        <item>Korukkupet</item>
+        <item>Kosapet</item>
+        <item>Kottivakkam</item>
+        <item>Kotturpuram</item>
+        <item>Kovalam</item>
+        <item>Kovilambakkam</item>
+        <item>Kovur</item>
+        <item>Koyambedu</item>
+        <item>Kundrathur</item>
+        <item>Lakshmi puram</item>
+        <item>Madambakkam</item>
+        <item>Madhavaram</item>
+        <item>Madipakkam</item>
+        <item>Maduravoyal</item>
+        <item>Main Mogappair</item>
+        <item>Mambakkam</item>
+        <item>Mambalam</item>
+        <item>Manapakkam</item>
+        <item>Mandaveli</item>
+        <item>Manjambakkam</item>
+        <item>Mathur</item>
+        <item>Medavakkam</item>
+        <item>Meenambakkam</item>
+      <item>Mel Ayanambakkam</item>
+        <item>Mogappair East</item>
+        <item>Mogappair West</item>
+        <item>Mylapore</item>
+        <item>Nallambakkam</item>
+        <item>Nallur</item>
+        <item>Nandambakkam</item>
+        <item>Nandanam</item>
+        <item>Nanganallur</item>
+        <item>Navalur</item>
+        <item>Nazarathpeth</item>
+        <item>Neelankarai</item>
+        <item>Nerkundrum</item>
+        <item>Nesapakkam</item>
+        <item>Nolambur</item>
+        <item>Nungambakkam</item>
+        <item>OCF</item>
+        <item>OMR</item>
+        <item>Oragadam</item>
+        <item>Otteri</item>
+        <item>Padi</item>
+        <item>Padur</item>
+        <item>Pakkam</item>
+        <item>Palanchur</item>
+        <item>Palavakkam</item>
+        <item>Palavanthangal</item>
+        <item>Pallavan Nagar</item>
+        <item>Pallavaram</item>
+        <item>Pallikaranai</item>
+        <item>Pammal</item>
+        <item>Park Town</item>
+        <item>Parrys Corner</item>
+        <item>Pattabiram</item>
+        <item>Pattalam</item>
+        <item>Pattravakkam</item>
+        <item>Pazhavanthangal</item>
+        <item>Pazhavanthangal</item>
+        <item>Pazhaverkadu</item>
+        <item>Peerkankaranai</item>
+        <item>Perambur</item>
+        <item>Peravallur</item>
+        <item>Peravallur</item>
+        <item>Periametu</item>
+        <item>Perumbakkam</item>
+        <item>Perumbakkam</item>
+        <item>perungalathur</item>
+        <item>Perungudi</item>
+        <item>Polachery</item>
+        <item>Ponneri</item>
+        <item>Ponniammanmedu</item>
+        <item>Poonamallee</item>
+        <item>Porur</item>
+        <item>Pozhichalur</item>
+        <item>Pudhupakkam</item>
+        <item>Pudupet</item>
+        <item>Pudupet</item>
+        <item>Pudur</item>
+        <item>Pulinanthope</item>
+        <item>Purasaiwalkam</item>
+        <item>Purasaiwalkam</item>
+        <item>Puthagaram</item>
+        <item>Puthagaram</item>
+        <item>Puzhal</item>
+        <item>Puzhuthivakkam</item>
+        <item>RA Puram</item>
+        <item>Raj bhavan</item>
+        <item>Rajakadai</item>
+        <item>Ramapuram</item>
+        <item>Ramavaram</item>
+        <item>Red Hills</item>
+        <item>RK Nagar</item>
+        <item>Royapettah</item>
+        <item>Royapuram</item>
+        <item>Saidapet</item>
+        <item>Saligramam</item>
+        <item>Santhome</item>
+        <item>Sathangadu</item>
+        <item>Selaiyur</item>
+        <item>Selavoyal</item>
+        <item>Sembakkam</item>
+        <item>Sembiam</item>
+        <item>Seneerkuppam</item>
+        <item>Seven Wells</item>
+        <item>Shakthi Nagar</item>
+        <item>Sharma Nagar</item>
+        <item>Shenoy nagar</item>
+        <item>Sholavaram</item>
+        <item>Sholinganallur</item>
+        <item>Siruseri</item>
+        <item>Sithalapakkam</item>
+        <item>Sowcarpet</item>
+        <item>Sri Iyyappa Nagar</item>
+        <item>St thomas mount</item>
+        <item>Surapet</item>
+        <item>T Nagar</item>
+        <item>Tambaram</item>
+        <item>Teynampet</item>
+        <item>Thalambur</item>
+        <item>Tharamani</item>
+        <item>Thirumangalam</item>
+        <item>Thirumazhisai</item>
+        <item>Thirumullaivayal</item>
+        <item>Thirumullaivoyal north</item>
+        <item>Thiruneermalai</item>
+        <item>Thirunindravur</item>
+        <item>Thiruvanmiyur</item>
+        <item>Thiruverkadu</item>
+        <item>Thoraipakkam</item>
+        <item>Thousand Lights</item>
+        <item>Tirusulam</item>
+        <item>Tiruvallur</item>
+        <item>Tiruvellikeni</item>
+        <item>Tiruvottiyur</item>
+        <item>Tondiarpet</item>
+        <item>Tondiarpet</item>
+        <item>Triplicane</item>
+        <item>TVK Nagar</item>
+        <item>United india colony</item>
+        <item>Vadapalani</item>
+        <item>Valasaravakkam</item>
+        <item>Vallalar Nagar</item>
+        <item>Vanagaram</item>
+        <item>Vandalur</item>
+        <item>Varadharajapuram</item>
+        <item>Velachery</item>
+        <item>Vengambakkam</item>
+        <item>Vepery</item>
+        <item>Villivakkam</item>
+        <item>Virugambakkam</item>
+        <item>Vyasarpadi</item>
+        <item>Washermanpet</item>
+        <item>West mambalam</item>
+        <item>WIMCO</item>
+    </string-array>
+    <string-array name="resedential">
+        <item>Crescent School Vandalur</item>
+        <item>MCC Higher Secondary School Chetpet</item>
+        <item>RMK Residential School</item>
+    <item>Sri Sathya Sai Institute of Educare</item>
+    <item>St Bedes Anglo Indian Higher Secondary School</item>
+    </string-array>
+    <string name="title_activity_splchildren">Special Children</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_schoolact">schoolact</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_schooltab">schooltab</string>
+</resources>

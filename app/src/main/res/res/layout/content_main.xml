@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_light_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kudwi.schoolex.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="1210dp"
+                android:background="@android:color/holo_red_light"
+                android:elevation="16dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="Feed from \n  The Times Of India"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="28sp"
+                android:typeface="monospace" />
+
+            <WebView
+                android:id="@+id/mywebview"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:layout_marginTop="1200dp" />
+
+            <ImageView
+                android:id="@+id/searchimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="820dp"
+                app:srcCompat="@drawable/icse" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="820dp"
+                android:text="Top icse schools"
+                android:textColor="@color/com_facebook_button_send_background_color_pressed"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="455dp"
+                app:srcCompat="@drawable/smallhousestate" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="114dp"
+                app:srcCompat="@drawable/smallhouse" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="113dp"
+                android:text="Top cbse schools "
+                android:textColor="@color/com_facebook_button_send_background_color_pressed"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView4"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:text="Top state board schools"
+                android:textColor="@color/com_facebook_button_send_background_color_pressed"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/topschoolrecycbse"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="150dp"
+                android:layout_weight="0.20"
+                android:divider="@null"
+                android:orientation="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                app:reverseLayout="true" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/topschoolrecystate"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="505dp"
+                android:layout_weight="0.20"
+                android:divider="@null"
+                android:orientation="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                app:reverseLayout="true" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:text="Categories"
+                android:textColor="#4caf50"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:elevation="24dp"
+                android:scrollbars="none">
+
+                <RelativeLayout
+                    android:layout_width="1000dp"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/splcat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:elevation="1dp"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Special children"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/boardcat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@id/splcat"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Board"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/gendercat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/boardcat"
+                        android:layout_marginLeft="115dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Gender"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/hostelcat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/gendercat"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Resedential"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/religioncat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/hostelcat"
+                        android:layout_marginLeft="170dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Religious views"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/coachingcat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/religioncat"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Integerated-coaching"
+                        android:textColor="@color/cardview_light_background" />
+
+                    <Button
+                        android:id="@+id/areacat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignLeft="@+id/coachingcat"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/mybutton"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:text="Area"
+                        android:textColor="@color/cardview_light_background" />
+
+
+                </RelativeLayout>
+            </HorizontalScrollView>
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/topschoolrecyicse"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="870dp"
+                android:layout_weight="0.20"
+                android:divider="@null"
+                android:orientation="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                app:reverseLayout="true" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/com_facebook_button_login_silver_background_color"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

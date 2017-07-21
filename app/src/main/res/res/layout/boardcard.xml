@@ -1,0 +1,52 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/cardView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/activity_vertical_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@android:color/background_light">
+
+        <ImageView
+            android:id="@+id/topimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/titlemc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/topimg"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+
+        <TextView
+            android:id="@+id/decpt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

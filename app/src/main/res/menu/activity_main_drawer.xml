@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/emoji_1f464"
+            android:title="My Account " />
+        <item
+            android:id="@+id/medals"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Medals" />
+        <item
+            android:id="@+id/chat"
+            android:icon="@drawable/ic_mr_button_connected_00_light"
+            android:title="Global Chat " />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@android:drawable/sym_call_outgoing"
+                android:title="Contact us " />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedbacks and Suggestions" />
+        </menu>
+    </item>
+
+</menu>

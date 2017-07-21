@@ -1,0 +1,52 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewreview"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="@color/cardview_shadow_start_color"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f6f6"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11dp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/reviewrate"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="202dp"
+            android:max="5"
+            android:rating="3" />
+
+        <TextView
+            android:id="@+id/namereview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/reviewrate"
+            android:text="TextView"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

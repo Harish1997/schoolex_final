@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kudwi.schoolex.Splchildren"
+    tools:showIn="@layout/activity_splchildren">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/cardview_light_background"
+            android:elevation="15dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="2dp"
+            android:text="They said he wouldn't,but he did \n They said he couldn't,be he can \n They said he won't,but he will"
+            android:textColor="#130d82"
+            android:textSize="19sp"
+            android:typeface="serif" />
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerviewspl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

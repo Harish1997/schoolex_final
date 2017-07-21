@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fblogin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/glogin" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/glogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/fblogin"
+        android:layout_alignParentStart="true" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profimg"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/myiconis"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        android:layout_below="@+id/glogin"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/fblogin"
+        android:layout_below="@+id/profimg"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="13dp"
+        android:text="Email:"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailinput"
+        android:layout_below="@+id/emailinput"
+        android:layout_marginTop="26dp"
+        android:text="Phone:" />
+
+    <EditText
+        android:id="@+id/phoneinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailinput"
+        android:layout_below="@+id/textView42"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/configdone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="41dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/profimg"
+        android:background="#f32250"
+        android:text="Done"
+        android:textColor="@color/cardview_light_background" />
+
+    <Spinner
+        android:id="@+id/cityspinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/glogin"
+        android:layout_below="@+id/phoneinput"
+        android:layout_marginTop="25dp" />
+
+
+</RelativeLayout>

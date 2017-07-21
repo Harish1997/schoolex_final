@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kudwi.schoolex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key_google_places"/>
+        <service
+            android:name=".MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Displaycred" />
+        <activity android:name=".Areachooser" />
+        <activity android:name=".Boardchooser" />
+        <activity android:name=".Writetous" />
+        <activity android:name=".Genderchooser" />
+        <activity android:name=".religion" />
+        <activity android:name=".Writereview"/>
+        <activity android:name=".Areaselected"/>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity
+            android:name=".Splchildren"
+            android:label="@string/title_activity_splchildren"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".topschooltest" />
+        <activity
+            android:name=".schoolact"
+            android:label="@string/title_activity_schoolact"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".view.LoginActivity"/>
+        <activity android:name=".MainActivitychat"/>
+        <activity
+            android:name=".Medals"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".Contactkudwi"/>
+        <activity android:name=".Account"/>
+        <activity android:name=".Configprofile"/>
+
+        <activity
+            android:theme="@style/AppThemeFullScreenImage"
+            android:name=".view.FullScreenImageActivity">
+        </activity>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+
+
+    </application>
+
+</manifest>

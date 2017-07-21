@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "784588740388",
+    "firebase_url": "https://schoolex-1c518.firebaseio.com",
+    "project_id": "schoolex-1c518",
+    "storage_bucket": "schoolex-1c518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784588740388:android:66959ff69163c526",
+        "android_client_info": {
+          "package_name": "com.kudwi.schoolex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "784588740388-127c2705cn4ktovsmkhtdu7rbigl7uei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kudwi.schoolex",
+            "certificate_hash": "3daf902e4b771ff88b297ee8fa7c5a7ecfd582c4"
+          }
+        },
+        {
+          "client_id": "784588740388-pkcamdpttifbcpi6kav3n2p78funpql3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU0y1HzMg5gs4Kr3lV-dOpn_HZN9OcfGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784588740388:android:84375843bf74b18c",
+        "android_client_info": {
+          "package_name": "com.mediafactory.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "784588740388-pkcamdpttifbcpi6kav3n2p78funpql3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU0y1HzMg5gs4Kr3lV-dOpn_HZN9OcfGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784588740388:android:d68e930bf8a301bd",
+        "android_client_info": {
+          "package_name": "kudwi.schoolex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "784588740388-2sio71d54mtrtqp05iat27tdd4fu8cpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kudwi.schoolex",
+            "certificate_hash": "3daf902e4b771ff88b297ee8fa7c5a7ecfd582c4"
+          }
+        },
+        {
+          "client_id": "784588740388-pkcamdpttifbcpi6kav3n2p78funpql3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU0y1HzMg5gs4Kr3lV-dOpn_HZN9OcfGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784588740388-roidcrak4298ej15cdlcqiq81bn3fvtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
